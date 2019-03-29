@@ -59,6 +59,7 @@ $busybox mount -t sysfs sysfs $mnt/sys;
 $busybox mount -o bind /sdcard $mnt/sdcard;
 $busybox chmod 666 /dev/null
 
+#PostgreSQL
 $busybox sysctl -w kernel.shmmax=268435456
 
 #Start SSH server
